@@ -1,0 +1,112 @@
+/* Code Reference Library */
+
+.crl-container { padding: 16px; }
+
+.crl-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+.crl-header h2 { margin: 0; }
+
+.crl-tabs {
+	display: flex;
+	gap: 4px;
+	margin-bottom: 12px;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.crl-tab {
+	padding: 6px 14px;
+	cursor: pointer;
+	border-radius: 4px 4px 0 0;
+	color: var(--text-muted);
+	font-size: 0.9em;
+	border: none;
+	background: transparent;
+}
+.crl-tab.active {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+.crl-tab:hover:not(.active) {
+	background: var(--background-modifier-hover);
+	color: var(--text-normal);
+}
+
+.crl-filter {
+	width: 100%;
+	padding: 6px 10px;
+	margin-bottom: 12px;
+	border-radius: 4px;
+	border: 1px solid var(--background-modifier-border);
+	background: var(--background-primary);
+	color: var(--text-normal);
+	font-size: 0.9em;
+}
+
+.crl-list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.crl-card {
+	padding: 10px 12px;
+	border-radius: 6px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	cursor: pointer;
+}
+.crl-card:hover { border-color: var(--interactive-accent); }
+
+.crl-card-title {
+	font-weight: 600;
+	color: var(--text-accent);
+	margin-bottom: 4px;
+}
+.crl-card-title:hover { text-decoration: underline; }
+
+.crl-card-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	margin-top: 4px;
+}
+
+.crl-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 4px;
+	background: var(--tag-background);
+	color: var(--tag-color);
+	font-size: 0.78em;
+}
+
+.crl-badge-lang {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+.crl-card-desc {
+	color: var(--text-muted);
+	font-size: 0.85em;
+	margin-top: 4px;
+}
+
+.crl-empty { color: var(--text-muted); font-style: italic; }
+
+.crl-btn-primary {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	border: none;
+	border-radius: 4px;
+	padding: 5px 12px;
+	font-size: 0.9em;
+	cursor: pointer;
+}
+.crl-btn-primary:hover { background: var(--interactive-accent-hover); }
+
+.crl-modal .setting-item { border-top: none; }
+.crl-textarea { width: 100%; resize: vertical; font-family: var(--font-monospace); }

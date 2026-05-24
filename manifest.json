@@ -1,0 +1,11 @@
+{
+  "id": "code-reference-library",
+  "name": "Code Reference Library",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "A personal coding reference library for Obsidian: patterns, snippets, links, and notes tagged by language and framework.",
+  "author": "wesswart77",
+  "authorUrl": "https://github.com/wesswart77",
+  "fundingUrl": "https://www.buymeacoffee.com/wesswart77",
+  "isDesktopOnly": false
+}
